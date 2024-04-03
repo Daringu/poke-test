@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.names-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 300px;
+  overflow: auto;
+  width: 700px;
+}

@@ -1,0 +1,44 @@
+.pokemon-details_container {
+  position: absolute;
+  left: 180px;
+  background-color: gray;
+  border: solid black 2px;
+  padding: 10px;
+}
+.stats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.stat {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.stat > h1 {
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+.stat > h2 {
+  text-align: center;
+}
+.abilities {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.abilities-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pokemon-name {
+  font-size: large;
+  font-weight: 900;
+  color: brown;
+}
+.active {
+  background-color: blueviolet;
+}

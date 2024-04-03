@@ -1,0 +1,15 @@
+.pokemonContainer {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+.name {
+  cursor: pointer;
+  font-size: large;
+  font-weight: 900;
+  border: solid black 3px;
+  padding: 10px;
+}
+.name:hover {
+  color: purple;
+}
